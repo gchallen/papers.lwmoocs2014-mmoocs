@@ -2,7 +2,7 @@
 
 \def\thetitle{Enabling MOOC Collaborations Through Modularity}
 \def\shorttitle{Modular MOOCs}
-\def\theauthors{Geoffrey Challen}
+\def\theauthors{Geoffrey Challen \textit{University at Buffalo}}
 \def\shortauthors{Challen}
 \def\submissiondate{\today}
 \def\whitepapername{Learning with MOOCs}
@@ -15,23 +15,13 @@
 \chapter{\thetitle}
 
 Massive open online courses (MOOCs) have the potential to transform teaching
-and learning by generating, analyzing, and acting on massive data sets that
-are much larger than any instructor at a traditional university would usually
-have access to. But these large data sets are not enough. Determining what
-works requires that we simultaneously encourage experimentation and harness
-instructional diversity already present in today's traditional university
-classrooms, while leveraging MOOCs to generate well-structured data for
-analysis. Big educational data sets have to be more than just big---they must
-be \textit{diverse}, allowing different methods of teaching and learning to
-be evaluated in the context of different expectations and student
-populations. A single online course produced by a small set of faculty cannot
-produce this diversity. Engaging many faculty and students at different
-institutions is necessary.
-
-The tension between MOOCs and traditional universities is palpable: In a
-well-publicized rejection of Harvard's popular EdX course on social justice,
-philosophy faculty at San Jose State University raised concerns over the
-ability of online content to integrate into their existing courses:
+and learning, and their impact is already being felt on university campuses
+and in popular culture. Unfortunately, dividing lines are already being drawn
+between faculty able to create MOOCs and those encouraged or even forced to
+use them. In their well-publicized rejection of Harvard's popular EdX course
+on social justice, philosophy faculty at San Jose State University raised
+concerns over the ability of online content to integrate into their existing
+courses:
 
 \begin{quote}
 
@@ -43,7 +33,17 @@ and our direct experience of our students' needs and abilities.
 
 \end{quote}
 
-As systems engineers, we see this complaint as expressing not a fundamental
+To meet the diverse needs of students at many institutions, MOOCs must
+encourage collaboration, not confrontation, with the professors using them.
+Today's online courses, typically created and controlled by small groups of
+faculty, both fail to foster this collaboration and also miss the opportunity
+to leverage the experience and experimental capacity present in classrooms
+across the country. A variety of instructors teaching a variety of different
+students in a variety of different ways represents an incredible education
+resource and living laboratory that MOOCs must find a way to harness, not
+suppress.
+
+As computer scientists, we see this complaint as expressing not a fundamental
 limitation of MOOCs, but a design flaw in how they are currently built:
 \textbf{today's MOOCs are not modular}. Modularity has long been appreciated
 when designing and implementing computer systems. Monolithic ``blobs'' of
@@ -53,10 +53,11 @@ used by anyone but their creator. All of today's major online education
 providers, including Coursera, Udacity, and the edX platform, provide
 monolithic MOOC content: entire courses that are packaged and offered as an
 indivisible unit. This flaw limits their ability to partner with faculty at
-other institutions, and to generate large and diverse data sets.
+other institutions, to generate large and diverse data sets, and to fully
+address diverse student learning styles and objectives.
 
-Since today's MOOCs suffer from a common software design problem, we propose
-to apply a standard software engineering solution: modularization. Modular
+Since today's MOOCs suffer from a common software design problem, we are
+applyiing a standard software engineering solution: modularization. Modular
 MOOCs break content into small \textit{modules} all sharing a common
 structure. Individual modules can be tested and improved in isolation and
 their impact on the entire class determined. As the goals and expectations of
@@ -76,13 +77,17 @@ And if one faculty member discovers an effective sequence of modules, all
 participating faculty can decide whether to adjust their own courses to
 incorporate this insight.
 
-We propose to explore the design and construction of \textit{modular MOOCs
-(mMOOCs)}, which exploit modularity to provide the control traditional
+We are currently exploring the design and construction of \textit{modular
+MOOCs (mMOOCs)}, which exploit modularity to provide the control traditional
 faculty desire while providing the diverse and well-structure data sets
-required to answer fundamental questions about teaching and learning.
-Together, the co-PIs will design and build a mMOOC to teach operating systems
-online. Then, they will recruit faculty from other institutions to foster
-vibrant multi-institutional collaborations in education, just as we currently
-do in research.
+required to answer fundamental questions about teaching and learning. We are
+beginning by augmenting \opsclass{}, an online operating systems
+instructional environment. Built by Geoffrey Challen, it has made automated
+version of the programming assignments developed by Margo Seltzer available
+online. Once \opsclass{} is able to support the diverse student outcomes and
+needs at our two institutions, the University at Buffalo and Harvard
+University, we will recruit faculty from other institutions to foster vibrant
+multi-institutional collaborations in education, just as we currently do in
+research.
 
 \end{document}
