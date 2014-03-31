@@ -14,6 +14,75 @@
 
 \chapter{\thetitle}
 
-Content.
+Massive open online courses (MOOCs) have the potential to transform teaching
+and learning by generating, analyzing, and acting on massive data sets that
+are much larger than any instructor at a traditional university would usually
+have access to. But these large data sets are not enough. Determining what
+works requires that we simultaneously encourage experimentation and harness
+instructional diversity already present in today's traditional university
+classrooms, while leveraging MOOCs to generate well-structured data for
+analysis. Big educational data sets have to be more than just big---they must
+be \textit{diverse}, allowing different methods of teaching and learning to
+be evaluated in the context of different expectations and student
+populations. A single online course produced by a small set of faculty cannot
+produce this diversity. Engaging many faculty and students at different
+institutions is necessary.
+
+The tension between MOOCs and traditional universities is palpable: In a
+well-publicized rejection of Harvard's popular EdX course on social justice,
+philosophy faculty at San Jose State University raised concerns over the
+ability of online content to integrate into their existing courses:
+
+\begin{quote}
+
+When a university such as ours purchases a course from an outside vendor, the
+faculty cannot control the design or content of the course; therefore we
+cannot develop and teach content that fits with our overall curriculum and is
+based on both our own highly developed and continuously renewed competence
+and our direct experience of our students' needs and abilities.
+
+\end{quote}
+
+As systems engineers, we see this complaint as expressing not a fundamental
+limitation of MOOCs, but a design flaw in how they are currently built:
+\textbf{today's MOOCs are not modular}. Modularity has long been appreciated
+when designing and implementing computer systems. Monolithic ``blobs'' of
+code, usually produced by a single developer to quickly solve a particular
+problem, are difficult to improve, test, and maintain, and are unlikely to be
+used by anyone but their creator. All of today's major online education
+providers, including Coursera, Udacity, and the edX platform, provide
+monolithic MOOC content: entire courses that are packaged and offered as an
+indivisible unit. This flaw limits their ability to partner with faculty at
+other institutions, and to generate large and diverse data sets.
+
+Since today's MOOCs suffer from a common software design problem, we propose
+to apply a standard software engineering solution: modularization. Modular
+MOOCs break content into small \textit{modules} all sharing a common
+structure. Individual modules can be tested and improved in isolation and
+their impact on the entire class determined. As the goals and expectations of
+the class for which they were originally created change, and as the content
+itself changes, it is more likely that the functionality provided by modules
+will continue to remain relevant, while adding new modules keeps the course
+current.
+
+Most importantly, modularization encourages the interinstitution
+collaboration that today's monolithic MOOCs struggle to achieve. Modules
+allow faculty to retain full control over course content and structure, with
+the ability to add, remove, alter and reorder modules in ways expressing
+their understanding of their students' needs and abilities, all while
+producing experimental data that benefits the original course. When faculty
+provide more effective replacements for existing modules, everyone benefits.
+And if one faculty member discovers an effective sequence of modules, all
+participating faculty can decide whether to adjust their own courses to
+incorporate this insight.
+
+We propose to explore the design and construction of \textit{modular MOOCs
+(mMOOCs)}, which exploit modularity to provide the control traditional
+faculty desire while providing the diverse and well-structure data sets
+required to answer fundamental questions about teaching and learning.
+Together, the co-PIs will design and build a mMOOC to teach operating systems
+online. Then, they will recruit faculty from other institutions to foster
+vibrant multi-institutional collaborations in education, just as we currently
+do in research.
 
 \end{document}
