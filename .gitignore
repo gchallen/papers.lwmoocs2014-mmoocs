@@ -1,5 +1,6 @@
-whitepaper.pdf
-.xxxnote
+/ABSTRACT
+/whitepaper.pdf
+/.xxxnote
 *.swp
 *.aux
 *.log
