@@ -5,10 +5,18 @@
 \def\theauthors{Geoffrey Challen (\textit{University at Buffalo}) and Margo
 Seltzer (\textit{Harvard University})}
 \def\shortauthors{Challen}
-\def\submissiondate{\today}
+\def\submissiondate{04/07/2014}
 \def\whitepapername{Learning with MOOCs}
 
 \begin{document}
+
+\ifdefined\isblue
+\begin{textblock}{1}(5.9,-0.3)
+\noindent\href{http://blue.cse.buffalo.edu}{\includegraphics[width=0.6in]{./figures/logos/blue.jpg}}
+\end{textblock}
+\else
+\fi
+
 \pagestyle{whitepaper}
 \thispagestyle{emptywhitepaper}
 \pagenumbering{arabic}
@@ -80,5 +88,7 @@ needs at our two institutions, the University at Buffalo and Harvard
 University, we will recruit faculty from other institutions to foster vibrant
 multi-institutional collaborations in education, just as we currently do in
 research.
+
+\vspace*{-1in}
 
 \end{document}

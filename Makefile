@@ -1,5 +1,6 @@
-START = xxxnote
+START = noxxxnote blue
 END = missing
+PYTEX = $(shell pwd)/pytex/
 CLASS = $(PYTEX)/cls/whitepaper.cls
 
 all: whitepaper ABSTRACT
